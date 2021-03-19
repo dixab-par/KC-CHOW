@@ -1,0 +1,716 @@
+
+
+body{
+    background: black;
+    font-family: 'CircularStd-Black', sans-serif;
+}
+
+a:hover{
+   text-decoration: none;
+   color: #fff;  
+}
+/*---------------------------------------
+      MAIN MENU             
+  -----------------------------------------*/
+.navbar{
+  margin-top: 36px !important;
+}
+.logo-w{
+  position: absolute;
+  top: -31px;
+  right: 39%;
+  width: 23%
+}
+.navbar-header{
+  padding: 4px 0;
+}
+
+.cart-ca{
+  position: absolute;
+  right: -69px;
+  top: 9px
+  
+}
+.icon-hed-fas{
+font-size:30px;
+ color:#fff;}
+
+.wishlist{
+  position: absolute;
+  right: -29px;
+  top: 11px
+}
+.inner-main-menu{
+    margin: 0 auto;
+    max-width: 1170px;
+    background-color: black;
+}
+.inner-main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    padding-top:50px ;
+}
+.inner-main-menu ul li{
+    float: none; 
+    display: inline-block;
+}
+.inner-main-menu ul li:nth-child(1){
+    float: left;
+}
+.inner-main-menu ul li:nth-child(2){
+    float: left;
+}
+.inner-main-menu ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+.inner-main-menu ul a:hover{
+    color: #FFDB95;
+}
+
+#main-menu{
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+.menu_full{
+  background-color: black;
+}
+#mein-menu{
+   padding-bottom: 14px;
+  margin-top: -14px;
+}
+
+.logo{     
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    padding-bottom: 100px;
+    margin-left: -150px;
+   
+}
+.navbar-inverse{
+    background-color: black;
+    border:none;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffff;
+    font-size: 17px;
+}
+/*---------------------------------------
+      HERO PAGE              
+  -----------------------------------------*/
+.banner{
+    position: relative;
+    background: url("../images/hero.png");
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 200px;
+    text-align: right;
+
+}
+
+.banner h2{
+    margin: 0;
+    padding: 0;
+    font-size: 5.4em;
+    font-weight: 100;
+    color: white;
+    text-transform: capitalize;
+}
+
+.button-4{ 
+    width:140px;
+    height:50px;
+    border:1px solid #E6B75E;
+    float:right;
+    text-align:center;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin:0 0 40px 50px;
+  }
+  
+  .button-4  a{
+    font-family:arial;
+    font-size:16px;
+    color:white;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-4{
+    width:340px;
+    height:50px;
+    left:-340px;
+    background:#E6B75E;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .button-4:hover .eff-4{
+    left:0;
+  }
+  .button-4:hover a{
+    color:black;
+  }
+
+  /*---------------------------------------
+     our method              
+  -----------------------------------------*/
+
+  #menu {
+    padding: 18px 0;
+    text-align: center;
+    background-color: #212126;
+}
+.menu1 h2{
+  color: white;
+}
+
+/*---------------------------------------
+      EAMIL              
+  -----------------------------------------*/
+
+  #about {
+    padding-bottom: 0;
+    margin-top: 90px;
+    
+  }
+
+  #about h1 {
+    padding-bottom: 0;
+    color: #e6b65e6e;
+    font-size: 60px;
+  }
+  #about h2 {
+    padding-bottom: 0;
+    color: #E6B75E;
+    font-size: 40px;
+
+  }
+
+  #about p {
+    padding-bottom: 0;
+    color: white;
+    font-size: 15px;
+    line-height: 1.7;
+  } 
+  .about-info {
+    padding: 0 6em 5em 0;
+  }
+
+  .about-info .section-title {
+    padding-bottom: 20px;
+  }
+
+  .about-image {
+    /*position: absolute;*/
+    /*width: 100%;*/
+  }
+
+  
+
+/*---------------------------------------
+      CHATBOT              
+  -----------------------------------------*/
+  #Chatbot {
+    padding-top: 40px;
+    padding-bottom: 145px;
+    margin-top: 90px;
+    background:#212126 ;
+  }
+
+  #Chatbot h1 {
+    padding-bottom: 0;
+    color: #e6b65e6e;
+    font-size: 60px;
+  }
+  #Chatbot h2 {
+    padding-bottom: 0;
+    color: #E6B75E;
+    font-size: 40px;
+
+  }
+
+  #Chatbot p {
+    padding-bottom: 0;
+    color: white;
+    font-size: 15px;
+    line-height: 1.7;
+  } 
+  .Chatbot-info {
+    padding: 0 6em 5em 0;
+  }
+
+  .Chatbot-info .section-title {
+    padding-bottom: 20px;
+  }
+
+  .about-image {
+    /*position: absolute;*/
+    /*width: 90%;*/
+    margin-left: -30px;
+  }
+  
+  /*---------------------------------------
+   SMS             
+  -----------------------------------------*/
+
+
+
+
+  /*---------------------------------------
+    who we are           
+  -----------------------------------------*/
+
+  #who {
+    padding: 18px 0;
+    text-align: center;
+    background-color: #212126;
+    margin-top: 180px;
+  }
+.menu1 h2{
+  color: white;
+}
+
+
+/*---------------------------------------
+    who we are           
+  -----------------------------------------*/
+
+  #about h3{
+    padding-bottom: 0;
+    color: #E6B75E;
+    font-size: 25px;
+    font-weight: 550;
+  }
+
+
+  /*---------------------------------------
+    only text section          
+  -----------------------------------------*/
+  #Chatbot h3{
+    padding-bottom: 0;
+    color: #E6B75E;
+    font-size: 25px;
+    font-weight: 550;
+  }
+
+/*---------------------------------------
+    client logo menu          
+  -----------------------------------------*/
+  #clientlogomenu {
+    padding: 18px 0;
+    text-align: center;
+  }
+
+  #clientlogomenu h2 {
+    padding: 18px 0;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+  }
+
+
+  /*---------------------------------------
+    footer          
+  -----------------------------------------*/
+  .page-footer{
+    background: url(../images/foot.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+  
+  }
+  .col{
+    color:#ffff;
+  }
+  .foot-md{
+    padding: 100px 0;
+  }
+  .footer-me-1{
+    text-align: end;
+    margin-right:60px;
+    font-size: 19px;
+  }
+  .footer-me-2{
+    text-align: left;
+    margin-left: 60px;
+    font-size: 19px;
+  }
+  .col-two{
+    color: #E6B75E;
+  }
+  .py-3{
+   padding-top: 11px;
+   padding-bottom: 67px;
+  }
+  .footer-copyright{
+    float: left;
+    width: 63%;
+  }
+  .footer-share{
+    width: 36%;
+  }
+  .page-footer{
+    width: 100%;
+    display: flow-root;
+  }
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------
+          CART PAGE    
+  -----------------------------------------*/
+  #cartpage{
+    background-color: white;
+  }
+  /*---------------------------------------
+         shopping cart sec   
+  -----------------------------------------*/
+#cart {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #E9E9E9;
+  
+}
+.shop-car{
+  background-color: #E9E9E9;
+}
+.cart-text h2{
+  color: black;
+}
+
+#product{
+  text-align: center;
+  /*display: inline-block;*/
+  
+}
+.had-pro-col{
+   background-color: black;
+   color: white;
+   padding: 10px ;
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+.prod-col-con{
+
+}
+
+
+
+#pro-1{
+  background-color: #E9E9E9;
+  /*margin: 0 160px;*/
+  text-align: center;
+  padding: 50px 0;
+   }
+    .pro_total{
+      color: #8d7342;
+     }
+     .fa-icon{
+       font-size: 30px;
+     }
+     .steve{
+       font-weight: 1000;
+     }.waiter{
+       font-size: 20px;
+     }
+ 
+hr{
+  height:2px;
+  background-color:gray
+}
+
+/*subtottal*/
+.sub-total{
+  text-align: right;
+}
+.sub{
+  color: #8d7342;
+}
+.button-4 .subbtn{
+  color: black;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+
+                 product page          
+          -----------------------------------------*/
+          #product-page{
+            background-color: white;
+          }
+
+      
+       .conta-marg{
+        margin-top: 70px;
+        margin-bottom: 33px;
+      }
+      .prod-lmg{
+        margin: 34px 0;
+        padding: 25px 0;
+        display: inline-block;
+        background-color: #F1F1F1;
+        border-radius: 13px;
+      }
+      .pro-nema{
+        /*float: left;*/
+      }
+      .pro-nema h3{
+        font-size: 22px;
+        margin-top: 9px;
+      }
+      .ing-tran{
+        box-shadow: 4px 6px 14px 0px #00000038;
+        margin-top: -51px;
+      }
+       .checked{
+        color: #f5be54;
+       }
+      .pro_button{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+     .pro_button{
+       padding: 10px 10px ;
+       background-color: black;
+       border: 1px solid goldenrod ;
+       border-radius: 50px;
+       color: #e9bf71;
+     }
+      .p-mar{
+        margin-bottom: 5px;
+        margin-top: -3px;
+      }
+      button:focus {
+        outline: none;
+        box-shadow: none;
+      }
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                 PRIVACY POLICY  PAGE  
+          -----------------------------------------*/
+
+#policy{
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+}
+.policy_text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.policy_text h2{
+  padding: 0 20px;
+}
+.policy_desc{
+  line-height: 1.7;
+  text-align: justify;
+  margin-top: 20px;
+}
+  
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+
+                 LEGAL PAGE       
+          -----------------------------------------*/
+
+          .poilicy_button{
+            justify-content: center;
+            display: flex;             
+          }
+          
+          .poilicy_button>.button-4{
+                width: 300px;
+            }
+            .legal_h5{
+              color: #FFDB95 ;
+              font-weight: 600;
+              
+            }
+
+            
+          
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+
+                 BLOG PAGE       
+          -----------------------------------------*/          
+
+          .blog-card{
+            transition: 0.3s;
+            text-align: center;
+            height: 100%;
+            margin: 0 20px 50px 20px;
+            border: 1px solid #21212633;
+          }
+          
+          .blog-card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          }
+          .blog_text{
+            padding: 40px;
+          }
+          .btu-flot{
+            float: none;
+            display: inline-block;
+            margin:10px 0 0px 0px;
+          }
+          
+          /*---------------------------------------
+          Animation       
+  -----------------------------------------*/
+          .hero-kc, .menu1{
+            animation-name: hiren; 
+            animation-duration: 2s; 
+          }
+          @keyframes hiren{
+          0% {
+                  transform: scale(1,1);
+              }
+              50% {
+                  transform: scale(1.2,1.2);
+              }
+              100% {
+                  transform: scale(1,1);
+              }
+          }
+/*---------------------------------------
+          Responsive       
+  -----------------------------------------*/
+  @media only screen and (max-width: 991px) {
+    .container {
+        max-width: 951px;
+    }
+    .row-rt-pd{
+        padding-right: 20px !important;
+    }
+    .button-4 {
+        margin-top: 11px;
+    }
+    .hero-kc{
+      font-size: 59px !important;
+    }
+    .about-image{
+       /*width: 100%; */
+       margin-left: 0px; 
+    }
+      #Chatbot{
+      padding-top: 80px;
+      padding-bottom: 49px;
+    }
+    .col-width{
+      width: 25%;
+    }
+    .logo{
+      position: initial;
+      left: inherit;
+      top: initial;
+      padding-bottom: initial;
+      margin-left: initial;
+    }
+    
+  /*------------  Product  ----------*/
+     .pro-nema h3 {
+      margin-top: 20px;
+     }
+  }
+  @media only screen and (max-width: 767px) {
+    .col-width{
+      width: 100%;
+    }
+    img.img-responsive {
+      display: initial;
+    }
+    #clientlogomenu h2{
+          padding-bottom: 31px
+    }
+    .col-width img{
+      width: 80%;
+    }
+    .footer-me-1{
+      text-align: center;
+      margin:0px;
+    }
+    .footer-me-2{
+      text-align: center;
+      margin:0px;
+    }
+    .foot-md{
+      padding-top: 80px;
+      padding-bottom: 50px;
+    }
+    .foot-md-co{
+     padding: 6px 0;
+    }
+   .logo-w{
+    left: 0 !important;
+    width: 36% !important;
+    top: -31px !important;
+    right: 61% !important;
+   }
+  
+  /*------------  Product  ----------*/
+   .pro-nema h3 {
+      margin-top: 20px;
+    }
+    .ing-tran{
+      margin-top: 0;
+    }
+    .res-mob{
+      text-align: center;
+    }
+  }
+  
+  
+  /*@media (min-width: 768px){
+  .container{
+      width: 810px;
+  }*/
+  
+  @media only screen and (max-width: 750px) {
+    .container {
+      /*max-width: 951px;*/ 
+   }
+  
+  
+   .hero-kc{
+      font-size: 60px !important;
+    }
+    .about-info{
+      padding: 0 0em 0em 0;
+    }
+    .col-width{
+      width: 100%;
+    }
+    .banner{
+      
+    }
+  }
+  @media only screen and (max-width: 716px) {
+    .logo-w {
+      width: 36% !important;
+  }
+  @media only screen and (max-width: 589px) {
+    .logo-w {
+      width: 42% !important;
+  }
+  @media only screen and (max-width: 450px) {
+    #about{
+      margin-top: 50px;
+    }
+    .logo-w {
+      width: 56% !important;
+   }
+  }
